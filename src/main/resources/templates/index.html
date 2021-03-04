@@ -6,6 +6,21 @@
 <h1>Coding Events</h1>
 
 <header th:replace="fragments :: header"></header>
+<form method="post">
 
+        <th:block th:each="event : ${events}">
+            <div class="form-group">
+            <label>
+                <span th:text="${event.name}"></span>
+                <input type="checkbox" name="eventIds" th:value="${event.id}" class="form-control">
+            </label>
+        </th:block>
+    </div>
+
+
+    <input type="submit" value="Delete" class="btn btn-danger">
+
+    </input>
+</form>
 </body>
 </html>
