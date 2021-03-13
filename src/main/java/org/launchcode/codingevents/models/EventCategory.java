@@ -9,6 +9,7 @@ import javax.persistence.Id;
 public class EventCategory {
 
     @Id
+    @GeneratedValue
     private int id;
     private String name;
 
