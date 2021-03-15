@@ -69,6 +69,8 @@ public class Event extends AbstractEntity {
         this.eventCategory = eventCategory;
     }
 
+
+
     @Override
     public String toString() {
         return name;
