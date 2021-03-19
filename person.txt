@@ -1,0 +1,8 @@
+Person Class
+
+Fields:
+- Name
+- Email
+- Password
+- List Of Events (Event) : Many to Many
+- Favorite Category (EventCategory) : One to Many
